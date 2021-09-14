@@ -1,0 +1,19 @@
+{
+  "name": "curso-digital-house",
+  "version": "1.0.0",
+  "description": "",
+  "main": "root.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jefitoifto/CTD-cursos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jefitoifto/CTD-cursos/issues"
+  },
+  "homepage": "https://github.com/Jefitoifto/CTD-cursos#readme"
+}
