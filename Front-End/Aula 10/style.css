@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+}
+
+header {
+    background-image: url(https://www.teahub.io/photos/full/87-870926_immagini-verticale-in-hd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    border: 7px groove white;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1, h2 {
+    color: white;
+}
+
+button {
+    padding: auto;
+    box-sizing: border-box;
+    border-color: blue;
+    border-radius: 20px;
+    color:black;
+}
