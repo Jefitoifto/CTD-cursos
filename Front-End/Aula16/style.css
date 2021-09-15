@@ -69,3 +69,46 @@ li::before {
     background-size: cover;
     background-image: url(seta.png);
 }
+
+
+div {
+  border: solid 2px #ccc;
+}
+
+
+#nome::placeholder {
+  color: blue;
+}
+
+#nao-informar:checked {
+  height: 50px;
+}
+
+#outro:checked {
+  width: 50px;
+}
+
+h3:nth-child(2) {
+  background-color: lightblue;
+}
+
+h3::selection {
+  color: yellow;
+  background-color: rebeccapurple;
+}
+
+h3:first-child {
+  background-color: royalblue;
+}
+
+h3:last-child {
+  background-color: saddlebrown;
+}
+
+#six:disabled {
+  background-color: #d19999;
+}
+
+#seven:enabled {
+  background-color: #97e297;
+}
