@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+
+body {
+    background: linear-gradient(rgb(115, 4, 241), rgb(255, 255, 255));
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+/* container flex */
+header {
+    height: 20vh;
+    background-color: rgba(255, 255, 255, 0);
+    /* a difícil missão centralizar horizontal e verticalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.877);
+    padding: 20px;
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    height: 30px;
+
+}
+
+
+form img {
+    width: 20px;
+}
+
+form input {
+    padding: 0 540px;
+}
+
+
+main {
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+/* Videos*/
+.flex-container {
+    max-width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    flex: 0 0 200px;
+    padding: 0 10px;
+    color: rgb(255, 255, 255);
+}
+
+.item img {
+    display: flex;
+    width: 230px;
+    border-color: blue;
+    border-radius: 12px;
+
+}
+
+footer {
+    
+    color: black;
+    text-align: center;
+}
+
+/*As propriedades que vamos ver sempre serão aplicadas em nosso Elemento Pai*/
+/*Os Filhos dos Elementos Filhos não irão sofrer alterações!*/
+
+/*.encolhe-mais{
+  display: flex; /*Alinha o item*/
+/*gap: 12px; /*espaço dos itens*/
+/*flex-wrap:wrap;/*quebra linhas dos itens*/
+/*flex-direction:column ;/*Altera as direções em que nossos Elementos Filhos serão organizados.*/
+/*flex: 0 0 200px;/**/
+/*justify-content: center; /*Alinha todos os itens para o centro horizontal do elemento pai*/
+/*align-items:center ;/* alinha verticalmente os elementos*/
+/*gap: 24px; /*Com gap é possível informarmos um valor para criarmos um espaço entre os itens.*/
+/*height: 50px;
+  background-color: aliceblue;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  border: 1px black solid;
+  border-radius: 5px;
+  /* um item flex também pode ser configurado como container flex*/
+/*display: flex;
+  align-items: center;
+  justify-content: center;
+  /* configurações do item flex - filha da classe flex-container */
+/* tamanho base */
+/* flex-basis: 250px; */
+/* flex-shrink: 1; */
+/* abreviação flex: grow shrink basis*/
+/* flex: 0 0 200px;
+}*/
