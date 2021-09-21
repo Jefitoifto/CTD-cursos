@@ -1,0 +1,16 @@
+#forEach
+
+numeros.forEach(function(elemento, indice){
+	console.log("Elemento: " + elemento+ " indice : " + indice);
+}); # Pegando a variável numeros e passando uma função forEach para ela, seguindo de outra função obrigatória passando 2 parâmetros
+elemento e indice, printando na tela os 2 com console.log.
+
+module.exports.canco = banco;
+
+método filter
+
+let numerosFiltrados = numeros.filter(function(elemento,indice){
+
+}
+
+

@@ -1,0 +1,12 @@
+Programação, processos
+
+Decompor - analisar como sera iniciado um projeto do início sem pular etapas, quebrar um sistema ou problema complexo
+em etapas menores. E cada problema será resolvido um após o outro.
+
+Detectar padrões - Identificar padrões de características comuns, itens que se repetem de maneira previsível.
+
+Abstrair - abstrair a qualidade de um problema montando um cenário de solução de formas eficazes.
+
+Algoritmizar - Desenvolver instruções passo a passo ou estabelecer regras a serem seguidas para resolver cada um dos problemas.
+
+

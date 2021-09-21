@@ -1,0 +1,52 @@
+body {
+    background-color: gray;
+  }
+  
+  #bola {
+    background: linear-gradient(90deg, blue, yellow);
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    animation-name: bolaa;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  
+  #scare {
+    height: 5px;
+    margin-top: 80px;
+    margin-left: 50px;
+  }
+  
+  #scare:hover {
+    transform: scale(200) skew(30deg);
+  }
+  
+  @keyframes bolaa {
+    0% {
+      opacity: 0%;
+    }
+    50% {
+      opacity: 100%;
+      transform: translate(500px);
+      border-radius: 20%;
+    }
+    100% {
+      opacity: 0%;
+    }
+  }
+  
+  #b1 {
+    border-radius: 20%;
+    height: 50px;
+    width: 100px;
+    /*  transition-property: background-color, color;
+    transition-duration: 0.3s; */
+    transition: background-color, 0.5s, color, 2s;
+  }
+  
+  #b1:hover {
+    color: yellow;
+    background-color: lightblue;
+    height: 300px;
+  }
