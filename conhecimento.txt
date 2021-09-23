@@ -10,3 +10,17 @@ Abstrair - abstrair a qualidade de um problema montando um cenário de solução
 Algoritmizar - Desenvolver instruções passo a passo ou estabelecer regras a serem seguidas para resolver cada um dos problemas.
 
 
+shift + alt + a selecionar várias linhas no html
+
+Math.round() retorna o valor arredondado para o inteiro mais próximo.
+
+let arredondar = Math.round(20.49);
+
+
+Login
+Senha
+
+------
+
+
+
