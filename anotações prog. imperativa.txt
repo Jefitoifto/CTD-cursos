@@ -13,4 +13,17 @@ let numerosFiltrados = numeros.filter(function(elemento,indice){
 
 }
 
+Apresentar quantas casas decimais eu quiser de um resultado, por exemplo: imc = 26.66666666666
+console.log(imc.toFixed(2)); //lembrando que se o toFixed for declarado na criação da variável, entrará como uma String.
+
+Resultado: 26.66
+
+ou
+
+let imc = Math.round(peso/altura*altura));
+console.log(imc);
+
+Resultado: 26
+
+
 
