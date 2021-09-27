@@ -9,75 +9,54 @@ let imc = Math.round(peso/(altura*altura));
 console.log("O imc do peso: "+ peso +"kg e altura: "+altura+"m é igual a: "+imc);
  */
 
+
+
+
 function Paciente1() {
-    let idade; //tipo int
-    let nome; //tipo string
-    let peso; //tipo float
-    let altura; //tipo float
-    let plano; //tipo string
-
-    nome = "José da Silva";
-    idade = 27;
-    peso = 83.5;
-    altura = 1.70;
-    plano = "ouro";
-
+    let idade = 27; //tipo int
+    let nome = "José da Silva"; //tipo string
+    let peso = 83.5; //tipo float
+    let altura = 1.70; //tipo float
+    let plano = "ouro"; //tipo string
     let imc = peso / (altura * altura);
-    console.log("O paciente: " + nome + ", plano " + plano + ", tem " + idade + " anos e seu índice de massa corporal é de: " + imc.toFixed(2));
+
+    return ("O paciente: " + nome + ", plano " + plano + ", tem " + idade + " anos e seu índice de massa corporal é de: " + imc.toFixed(2));
 }
 
 
 function Paciente2() {
-    let idade; //tipo int
-    let nome; //tipo string
-    let peso; //tipo float
-    let altura; //tipo float
-    let plano; //tipo string
-
-    nome = "Carlos de Souza";
-    idade = 28;
-    peso = 80.1;
-    altura = 1.76;
-    plano = "diamante";
-
+    let idade = 28; //tipo int
+    let nome = "Carlos de Souza"; //tipo string
+    let peso = 80.1; //tipo float
+    let altura = 1.76; //tipo float
+    let plano = "diamante"; //tipo string
     let imc = peso / (altura * altura);
-    console.log("O paciente: " + nome + ", plano " + plano + ", tem " + idade + " anos e seu índice de massa corporal é de: " + imc.toFixed(2));
+
+    return ("O paciente: " + nome + ", plano " + plano + ", tem " + idade + " anos e seu índice de massa corporal é de: " + imc.toFixed(2));
 }
 
 
 function Paciente3() {
-    let idade; //tipo int
-    let nome; //tipo string
-    let peso; //tipo float
-    let altura; //tipo float
-    let plano; //tipo string
-
-    nome = "Aline Ferreira";
-    idade = 33;
-    peso = 63.7;
-    altura = 1.53;
-    plano = "não possui";
-
+    let idade = 33; //tipo int
+    let nome = "Aline Ferreira"; //tipo string
+    let peso = 63.7; //tipo float
+    let altura = 1.53; //tipo float
+    let plano = "não possui"; //tipo string
     let imc = peso / (altura * altura);
-    console.log("O paciente: " + nome + ", " + plano + " plano, tem " + idade + " anos e seu índice de massa corporal é de: " + imc.toFixed(2));
+
+    return ("O paciente: " + nome + ", " + plano + " plano, tem " + idade + " anos e seu índice de massa corporal é de: " + imc.toFixed(2));
 }
 
 
 function Paciente4() {
-    let idade; //tipo int
-    let nome; //tipo string
-    let peso; //tipo float
-    let altura; //tipo float
-    let plano; //tipo string
-
-    nome = "Ana Paula";
-    idade = 26;
-    peso = 55.0;
-    altura = 1.62;
-    plano = "prata";
-
+    let idade = 26; //tipo int
+    let nome = "Ana Paula"; //tipo string
+    let peso = 55.0; //tipo float
+    let altura = 1.62; //tipo float
+    let plano = "prata"; //tipo string
     let imc = peso / (altura * altura);
-    console.log("O paciente: " + nome + ", plano " + plano + ", tem " + idade + " anos e seu índice de massa corporal é de: " + imc.toFixed(2));
+    
+    return ("O paciente: " + nome + ", plano " + plano + ", tem " + idade + " anos e seu índice de massa corporal é de: " + imc.toFixed(2));
 }
 
 console.log(Paciente1());

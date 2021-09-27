@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Checkpoint II</title>
+</head>
+
+<body>
+
+    <form>
+        <fieldset id="endereco">
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" placeholder="Digite aqui..." maxlength="100"><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Digite aqui..."><br>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" placeholder="(99)99999-9999"><br>
+
+            <label for="data-nascimento">Data de nascimento:</label>
+            <input type="date" id="data-nascimento"><br>
+
+            <label>É maior de idade?</label>
+            <div>
+                <input type="radio" id="sim" name="maior-idade">
+                <label for="sim">Sim</label>
+                <input type="radio" id="nao" name="maior-idade">
+                <label for="nao">Não</label>
+            </div>
+
+            <label for="jogos-s">Selecione um lazer:</label>
+            <input list="jogos-s" name="jogos-s" id="jogos-s">
+            <datalist id="jogos-s">
+                <option value="batatinha 123">
+                <option value="amarelinha">
+                <option value="pique esconde">
+            </datalist>
+
+
+            <legend>Endereço do Usuário</legend>
+            <p>Logradouro: <input type="" name="tRua" placeholder="Rua, Av, Bairro..."></p>
+            <p>Estado: <select name="tEst" id="cEst">
+                    <option>AC</option>
+                    <option>AL</option>
+                    <option>AP</option>
+                    <option>AM</option>
+                    <option>BA</option>
+                    <option>CE</option>
+                    <option>DF</option>
+                    <option>ES</option>
+                    <option>GO</option>
+                    <option>MA</option>
+                    <option>MT</option>
+                    <option>MS</option>
+                    <option>MG</option>
+                    <option>PA</option>
+                    <option>PB</option>
+                    <option>PR</option>
+                    <option>PE</option>
+                    <option>PI</option>
+                    <option>RJ</option>
+                    <option>RN</option>
+                    <option>RS</option>
+                    <option>RO</option>
+                    <option>RR</option>
+                    <option>SC</option>
+                    <option>SP</option>
+                    <option>SE</option>
+                    <option>TO</option>
+                </select></p>
+            <p>Cidade: <input type="text" name="tCid" id="cCid" placeholder="cidade onde você mora..."> </p>
+        </fieldset>
+        <fieldset id="cad">
+        <label>Quais os seus interesses?</label>
+        <div>
+            <input type="checkbox" id="turismo">
+            <label for="turismo">Turismo</label>
+            <input type="checkbox" id="residencia">
+            <label for="residencia">Residência</label>
+            <input type="checkbox" id="estudante">
+            <label for="estudante">Estudante</label>
+        </div>
+    </fieldset>
+        <div>
+            <input class="button" type="reset">
+            <input class="button" type="submit">
+        </div>
+    </form>
+</body>
+
+</html>
