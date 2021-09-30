@@ -1,0 +1,34 @@
+// variáveis '$'
+$primary-color: rgb(85,38,197);
+$sans-serif: 'Open Sans', sans-serif;
+
+
+@import url();
+
+body{
+    font-family: $sans-serif;
+}
+
+
+head{
+    height: 15vh;
+    background-color: $primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    background-color: $primary-color;
+
+}
+
+h2{
+    border: 3px solid $primary-color; 
+    padding: 0.7rem;;
+}
+
+h3{
+    color: $primary-color;
+}
+
