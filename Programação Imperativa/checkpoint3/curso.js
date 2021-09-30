@@ -50,4 +50,4 @@ let curso = {
 
 };
 /* curso.addAluno("Batista",11,[5,4,5])*/
-/* console.log(curso.metodoAprovacao('Adilane Pereira')) */
+console.log(curso.metodoAprovacao('João Carlos'))
